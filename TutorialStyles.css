@@ -1,0 +1,167 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  color: #c4161c;
+  text-align: center;
+}
+.caracteristicas {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  background-color: #c4161c;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.videos {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ClaseVideos {
+  max-width: 8000px;
+  width: 100%;
+  height: auto; /* Altura automática */
+  padding-top: 0.5%;
+  box-sizing: border-box;
+}
+.h1 {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.logo {
+  right: 20px;
+  width: 70px;
+  top: 10px;
+  margin-left: 30px;
+}
+.devolver {
+  width: 70px;
+  margin-right: 30px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.videos figure {
+  display: inline-block;
+  max-width: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.imagen img {
+  max-width: 800px;
+}
+@media screen and (max-width: 1020px) {
+  .videos {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .devolver {
+    order: -1;
+    width: 60px;
+    margin-right: 10px;
+  }
+  .logo {
+    order: 1;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h1 {
+    order: 1;
+  }
+  header {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    font-size: 18px;
+  }
+  .devolver {
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    order: 1;
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+.imagen {
+  padding-top: 2%;
+  position: relative;
+  display: flex;
+  width: 43%;
+  justify-content: center;
+  align-items: left;
+}
+.imagen img {
+  width: 95%;
+}
+
+@media (min-width: 2500px) {
+  .texto {
+    padding: 2%;
+    width: 30%;
+    font-size: 35px;
+  }
+}
+.imagen2 {
+  padding-top: 2%;
+  position: relative;
+  display: flex;
+  width: 43%;
+  justify-content: center;
+  align-items: right;
+}
+.imagen2 img {
+  width: 95%;
+}
+
+@media (max-width: 630px) {
+  .imagen {
+    width: 70%;
+  }
+}

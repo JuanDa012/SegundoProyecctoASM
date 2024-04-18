@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
+  <link
+    rel="stylesheet"
+    href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+  />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <title>Tutorial y Características</title>
+    <link rel="stylesheet" href="ARStyles.css">
+   
+</head>
+<body>
+    <header>
+        <a href="index.html">
+                <img src="IMG/Flecha1.png" alt="Imagen 1" class="devolver">
+        </a>
+        <h1>Dispositivos UAO</h1>
+        <img src="IMG/Logo.png" alt="Logo" class="logo">
+    </header>
+            <div class="h1">
+                <h1>Realidad Aumentada</h1>
+            </div>
+            <h2>Observa la caminadora en tu entorno a través de la cámara</h2>
+            <div class="modeloo">
+                <section id="modelo3d" class="column">
+                    <model-viewer ar src="Modelo3D/Caminadora3.glb" 
+                    ar-modes="webxr scene-viewer quick-look" 
+                    shadow-intensity="1"
+                    camera-controls auto-rotate></model-viewer>
+                </section>
+            </div>
+            <!-- Agrega más videos si es necesario-->
+
+            <script
+            type="module"
+            src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"
+            ></script>
+            <script type="module" 
+            src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer-legacy.js">
+        </script>
+</body>
+</html> 
